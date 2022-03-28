@@ -1,0 +1,36 @@
+
+---
+server:
+  port: 8081
+spring:
+  config:
+    activate:
+      on-profile: test
+---
+server:
+  port: 8082
+spring:
+  config:
+    activate:
+      on-profile: prod
+student1:
+  name: hechongwei
+  age: 19
+
+student2: {name: hechongwei, age: 20}
+
+student3:
+  - cat
+  - dog
+  - pig
+
+student4: [cat,dog,pig]
+
+
+---
+spring:
+  profiles:
+    active: prod
+server:
+  port: 8083
+

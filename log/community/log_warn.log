@@ -1,0 +1,2 @@
+2022-03-27 21:46:50,258 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-03-27 21:46:50,592 WARN [main] c.h.m.TestLogger [TestLogger.java:24] warn
