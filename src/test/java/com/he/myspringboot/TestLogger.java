@@ -15,6 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @ContextConfiguration(classes=MySpringbootApplication.class)
 public class TestLogger {
 
+		//1
     private static final Logger logger= LoggerFactory.getLogger(TestLogger.class);
 
     @Test
