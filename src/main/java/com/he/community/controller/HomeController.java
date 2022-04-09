@@ -6,9 +6,11 @@ import com.he.community.entity.Page;
 import com.he.community.entity.User;
 import com.he.community.service.DiscussPostService;
 import com.he.community.service.UserService;
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -52,10 +54,9 @@ public class HomeController {
             }
             model.addAttribute("discussPosts",list);
         }
-
-
         return "index";
     }
+
 
 
 }
