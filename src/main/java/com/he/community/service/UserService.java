@@ -41,10 +41,6 @@ public class UserService {
     private TemplateEngine templateEngine;
 
 
-
-
-
-
     @Value("${community.path.domain}")
     private  String domain;
 
@@ -176,7 +172,12 @@ public class UserService {
         return loginTicketMapper.selectByTicket(ticket);
     }
 
+    public int updateHeader(int userId,String headerUrl){
+      return userMapper.updateHeader(userId,headerUrl);
+    }
 
-
+    public User findUserByName(String username){
+        return userMapper.selectByName(username);
+    }
 
 }

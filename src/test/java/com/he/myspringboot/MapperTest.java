@@ -4,9 +4,11 @@ package com.he.myspringboot;
 import com.he.community.MySpringbootApplication;
 import com.he.community.dao.DiscussPostMapper;
 import com.he.community.dao.LoginTicketMapper;
+import com.he.community.dao.MessageMapper;
 import com.he.community.dao.UserMapper;
 import com.he.community.entity.DiscussPost;
 import com.he.community.entity.LoginTicket;
+import com.he.community.entity.Message;
 import com.he.community.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,6 +24,10 @@ import java.util.List;
 @SpringBootTest
 @ContextConfiguration(classes= MySpringbootApplication.class)
 public class MapperTest {
+    @Autowired
+    private MessageMapper messageMapper;
+
+
     @Autowired
     private UserMapper userMapper;
 
@@ -62,6 +68,26 @@ public class MapperTest {
         loginTicketMapper.updateStatus("abc",1);
         abc=loginTicketMapper.selectByTicket("abc");
         System.out.println(abc);
+    }
+    @Test
+    public void testSelectLetters(){
+        List<Message> messages = messageMapper.selectConversations(111, 0, 10);
+        for (Message message : messages) {
+            System.out.println(message.toString());
+        }
+        int count = messageMapper.selectConversationCount(111);
+        System.out.println(count);
+
+        List<Message> messages1 = messageMapper.selectLetters("111_112", 0, 10);
+        for (Message message : messages1) {
+            System.out.println(message.toString());
+        }
+
+        int count1 = messageMapper.selectLetterCount("111_112");
+        System.out.println(count1);
+
+        int count2 = messageMapper.selectLetterUnreadCount(111, "111_131");
+        System.out.println(count2 );
     }
 
 }

@@ -21,8 +21,6 @@
 			<div class="container p-5 mt-3 mb-3">
 				<!-- 上传头像 -->
 				<h6 class="text-left text-info border-bottom pb-2">上传头像</h6>
-				<!--上传到本地-->
-				<!--
 				<form class="mt-5" method="post" enctype="multipart/form-data" th:action="@{/user/upload}">
 					<div class="form-group row mt-4">
 						<label for="head-image" class="col-sm-2 col-form-label text-right">选择头像:</label>
@@ -32,7 +30,7 @@
 									   id="head-image" name="headerImage" lang="es" required="">
 								<label class="custom-file-label" for="head-image" data-browse="文件">选择一张图片</label>
 								<div class="invalid-feedback" th:text="${error}">
-									该账号不存在!
+
 								</div>
 							</div>
 						</div>
@@ -44,15 +42,14 @@
 						</div>
 					</div>
 				</form>
-				-->
 				<!--上传到七牛云-->
-				<form class="mt-5" id="uploadForm">
+				<!--<form class="mt-5" id="uploadForm" >
 					<div class="form-group row mt-4">
 						<label for="head-image" class="col-sm-2 col-form-label text-right">选择头像:</label>
 						<div class="col-sm-10">
 							<div class="custom-file">
-								<input type="hidden" name="token" th:value="${uploadToken}">
-								<input type="hidden" name="key" th:value="${fileName}">
+								<input type="hidden" name="token">
+								<input type="hidden" name="key">
 								<input type="file" class="custom-file-input" id="head-image" name="file" lang="es" required="">
 								<label class="custom-file-label" for="head-image" data-browse="文件">选择一张图片</label>
 								<div class="invalid-feedback">
@@ -67,16 +64,16 @@
 							<button type="submit" class="btn btn-info text-white form-control">立即上传</button>
 						</div>
 					</div>
-				</form>
+				</form>-->
 				<!-- 修改密码 -->
 				<h6 class="text-left text-info border-bottom pb-2 mt-5">修改密码</h6>
-				<form class="mt-5" method="post" enctype="multipart/form-data" th:action="@{/user/changePassword}">
+				<form class="mt-5" method="post" enctype="multipart/form-data">
 					<div class="form-group row mt-4">
 						<label for="old-password" class="col-sm-2 col-form-label text-right">原密码:</label>
 						<div class="col-sm-10">
-							<input type="password" th:class="|form-control ${oldPasswordMsg!=null?'is-invalid':''}|" id="old-password"
+							<input type="password" th:class="form-control" id="old-password"
 								   name="oldPassword" placeholder="请输入原始密码!" required>
-							<div class="invalid-feedback" th:text="${oldPasswordMsg}">
+							<div class="invalid-feedback">
 								密码长度不能小于8位!
 							</div>							
 						</div>
@@ -84,9 +81,9 @@
 					<div class="form-group row mt-4">
 						<label for="new-password" class="col-sm-2 col-form-label text-right">新密码:</label>
 						<div class="col-sm-10">
-							<input type="password" th:class="|form-control ${newPasswordMsg!=null?'is-invalid':''}|" id="new-password"
+							<input type="password" th:class="form-control" id="new-password"
 								   name="newPassword" placeholder="请输入新的密码!" required>
-							<div class="invalid-feedback" th:text="${newPasswordMsg}">
+							<div class="invalid-feedback">
 								密码长度不能小于8位!
 							</div>							
 						</div>
@@ -94,9 +91,9 @@
 					<div class="form-group row mt-4">
 						<label for="confirm-password" class="col-sm-2 col-form-label text-right">确认密码:</label>
 						<div class="col-sm-10">
-							<input type="password" th:class="|form-control ${confirmPasswordMsg!=null?'is-invalid':''}|" id="confirm-password"
+							<input type="password" th:class="form-control " id="confirm-password"
 								   name="confirmPassword" placeholder="再次输入新密码!" required>
-							<div class="invalid-feedback" th:text="${confirmPasswordMsg}">
+							<div class="invalid-feedback" >
 								两次输入的密码不一致!
 							</div>								
 						</div>
