@@ -1,0 +1,80 @@
+2022-05-03 12:22:36,993 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 12:22:36,990 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 13536 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 12:22:36,996 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 12:22:37,842 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 12:22:37,846 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 12:22:37,865 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-05-03 12:22:40,096 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 12:22:40,525 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 4.1 seconds (JVM running for 4.978)
+2022-05-03 12:23:48,058 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 15544 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 12:23:48,059 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 12:23:48,074 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 12:23:48,715 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 12:23:48,719 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 12:23:48,740 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-05-03 12:23:50,640 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 12:23:50,990 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.38 seconds (JVM running for 4.062)
+2022-05-03 12:26:56,934 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 8944 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 12:26:56,935 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 12:26:56,938 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 12:26:57,590 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 12:26:57,595 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 12:26:57,614 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-05-03 12:26:59,433 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 12:26:59,808 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.32 seconds (JVM running for 4.03)
+2022-05-03 12:37:36,112 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 1456 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 12:37:36,114 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 12:37:36,117 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 12:37:36,751 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 12:37:36,756 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 12:37:36,784 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-05-03 12:37:38,902 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 12:37:39,371 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.724 seconds (JVM running for 4.411)
+2022-05-03 12:40:28,388 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 12:40:28,392 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 5376 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 12:40:28,393 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 12:40:29,031 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 12:40:29,034 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 12:40:29,056 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-05-03 12:40:30,971 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 12:40:31,363 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.436 seconds (JVM running for 4.265)
+2022-05-03 12:40:52,747 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 12:40:52,748 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 15828 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 12:40:52,748 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 12:40:53,426 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 12:40:53,429 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 12:40:53,450 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-05-03 12:40:55,362 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 12:40:55,764 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.47 seconds (JVM running for 4.21)
+2022-05-03 12:44:16,868 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 7792 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 12:44:16,870 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 12:44:16,871 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 12:44:17,486 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 12:44:17,490 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 12:44:17,511 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-05-03 12:44:19,418 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 12:44:19,829 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.41 seconds (JVM running for 4.105)
+2022-05-03 13:17:01,136 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 13:17:01,142 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 14836 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 13:17:01,143 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 13:17:01,957 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 13:17:01,961 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 13:17:01,983 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-05-03 13:17:03,998 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 13:17:04,387 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.72 seconds (JVM running for 4.616)
+2022-05-03 13:24:56,622 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 13:24:56,624 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 1092 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 13:24:56,624 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 13:24:57,298 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 13:24:57,301 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 13:24:57,322 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-05-03 13:24:59,305 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 13:24:59,661 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.517 seconds (JVM running for 4.214)
+2022-05-03 13:36:50,944 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-05-03 13:36:50,943 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 15672 (started by Dell in D:\java_project\MySpringboot)
+2022-05-03 13:36:50,945 INFO [main] c.h.m.RedisTests [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-05-03 13:36:51,577 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-03 13:36:51,580 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-03 13:36:51,600 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-05-03 13:36:53,538 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-03 13:36:53,934 INFO [main] c.h.m.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 3.601 seconds (JVM running for 4.703)

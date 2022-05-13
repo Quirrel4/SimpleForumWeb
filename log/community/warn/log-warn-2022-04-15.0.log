@@ -1,0 +1,14 @@
+2022-04-15 15:51:27,470 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 15:52:26,201 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 15:58:38,264 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 16:09:58,270 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 16:11:46,945 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 16:15:27,682 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 16:17:21,950 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 16:56:55,687 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 16:58:06,709 WARN [http-nio-8080-exec-10] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-04-15 16:58:09,530 WARN [http-nio-8080-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-04-15 16:58:30,860 WARN [http-nio-8080-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-04-15 16:58:52,586 WARN [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-04-15 17:02:34,929 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-15 17:02:57,706 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.

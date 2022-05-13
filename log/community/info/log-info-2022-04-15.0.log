@@ -1,0 +1,97 @@
+2022-04-15 15:51:26,065 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 1492 (started by Dell in D:\java_project\MySpringboot)
+2022-04-15 15:51:26,071 INFO [main] c.h.m.SensitiveFilterTest [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 15:51:26,071 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 15:51:28,078 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 15:51:28,415 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.825 seconds (JVM running for 3.829)
+2022-04-15 15:52:25,018 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 2192 (started by Dell in D:\java_project\MySpringboot)
+2022-04-15 15:52:25,019 INFO [main] c.h.m.SensitiveFilterTest [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 15:52:25,021 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 15:52:26,701 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 15:52:26,954 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.413 seconds (JVM running for 3.13)
+2022-04-15 15:58:36,984 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 480 (started by Dell in D:\java_project\MySpringboot)
+2022-04-15 15:58:36,986 INFO [main] c.h.m.SensitiveFilterTest [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 15:58:36,988 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 15:58:38,852 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 15:58:39,165 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.706 seconds (JVM running for 4.069)
+2022-04-15 16:09:57,015 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 5576 (started by Dell in D:\java_project\MySpringboot)
+2022-04-15 16:09:57,016 INFO [main] c.h.m.SensitiveFilterTest [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 16:09:57,019 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 16:09:58,871 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 16:09:59,184 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.695 seconds (JVM running for 3.601)
+2022-04-15 16:11:45,690 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 7492 (started by Dell in D:\java_project\MySpringboot)
+2022-04-15 16:11:45,692 INFO [main] c.h.m.SensitiveFilterTest [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 16:11:45,696 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 16:11:47,594 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 16:11:47,952 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.789 seconds (JVM running for 3.763)
+2022-04-15 16:15:26,471 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 16:15:26,472 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 14012 (started by Dell in D:\java_project\MySpringboot)
+2022-04-15 16:15:26,473 INFO [main] c.h.m.SensitiveFilterTest [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 16:15:28,235 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 16:15:28,553 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.583 seconds (JVM running for 3.434)
+2022-04-15 16:17:20,781 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:55] Starting SensitiveFilterTest using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 12136 (started by Dell in D:\java_project\MySpringboot)
+2022-04-15 16:17:20,782 INFO [main] c.h.m.SensitiveFilterTest [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 16:17:20,785 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 16:17:22,495 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 16:17:22,782 INFO [main] c.h.m.SensitiveFilterTest [StartupInfoLogger.java:61] Started SensitiveFilterTest in 2.424 seconds (JVM running for 3.113)
+2022-04-15 16:56:54,389 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 16:56:54,398 INFO [restartedMain] c.h.c.MySpringbootApplication [StartupInfoLogger.java:55] Starting MySpringbootApplication using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 8208 (D:\java_project\MySpringboot\target\classes started by Dell in D:\java_project\MySpringboot)
+2022-04-15 16:56:54,399 INFO [restartedMain] c.h.c.MySpringbootApplication [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 16:56:54,430 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-15 16:56:54,430 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-15 16:56:55,354 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-15 16:56:55,360 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-15 16:56:55,361 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-15 16:56:55,361 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-15 16:56:55,418 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-15 16:56:55,418 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 988 ms
+2022-04-15 16:56:55,887 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 16:56:55,985 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-04-15 16:56:56,001 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-15 16:56:56,015 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-04-15 16:56:56,024 INFO [restartedMain] c.h.c.MySpringbootApplication [StartupInfoLogger.java:61] Started MySpringbootApplication in 2.015 seconds (JVM running for 2.801)
+2022-04-15 16:56:57,734 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-15 16:56:57,735 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-04-15 16:56:57,736 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-04-15 16:56:57,759 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-04-15 16:56:58,058 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-04-15 17:02:29,980 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-04-15 17:02:29,986 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-04-15 17:02:33,799 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 17:02:33,802 INFO [restartedMain] c.h.c.MySpringbootApplication [StartupInfoLogger.java:55] Starting MySpringbootApplication using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 1516 (D:\java_project\MySpringboot\target\classes started by Dell in D:\java_project\MySpringboot)
+2022-04-15 17:02:33,803 INFO [restartedMain] c.h.c.MySpringbootApplication [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 17:02:33,834 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-15 17:02:33,834 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-15 17:02:34,605 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-15 17:02:34,612 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-15 17:02:34,613 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-15 17:02:34,613 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-15 17:02:34,665 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-15 17:02:34,665 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 831 ms
+2022-04-15 17:02:35,147 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 17:02:35,242 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-04-15 17:02:35,254 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-15 17:02:35,266 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-04-15 17:02:35,274 INFO [restartedMain] c.h.c.MySpringbootApplication [StartupInfoLogger.java:61] Started MySpringbootApplication in 1.856 seconds (JVM running for 2.647)
+2022-04-15 17:02:56,585 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.2.2.Final
+2022-04-15 17:02:56,591 INFO [restartedMain] c.h.c.MySpringbootApplication [StartupInfoLogger.java:55] Starting MySpringbootApplication using Java 1.8.0_322 on DESKTOP-IC9V6LA with PID 5688 (D:\java_project\MySpringboot\target\classes started by Dell in D:\java_project\MySpringboot)
+2022-04-15 17:02:56,592 INFO [restartedMain] c.h.c.MySpringbootApplication [SpringApplication.java:646] The following 1 profile is active: "prod"
+2022-04-15 17:02:56,622 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-15 17:02:56,622 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-15 17:02:57,409 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-15 17:02:57,417 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-15 17:02:57,417 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-15 17:02:57,418 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-15 17:02:57,470 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-15 17:02:57,470 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 847 ms
+2022-04-15 17:02:57,889 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-15 17:02:57,975 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-04-15 17:02:57,986 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-15 17:02:57,997 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-04-15 17:02:58,004 INFO [restartedMain] c.h.c.MySpringbootApplication [StartupInfoLogger.java:61] Started MySpringbootApplication in 1.796 seconds (JVM running for 2.541)
+2022-04-15 17:03:05,358 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-15 17:03:05,359 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-04-15 17:03:05,360 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-04-15 17:03:05,378 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-04-15 17:03:05,569 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-04-15 17:08:59,148 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-04-15 17:08:59,153 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

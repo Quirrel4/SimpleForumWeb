@@ -1,0 +1,10 @@
+2022-05-03 12:22:38,922 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 12:23:49,611 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 12:26:58,451 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 12:37:37,722 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 12:40:29,947 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 12:40:54,294 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 12:44:18,382 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 13:17:02,948 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 13:24:58,207 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-03 13:36:52,496 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
