@@ -1,7 +1,6 @@
-package com.he.myspringboot;
+package com.he.community;
 
 
-import com.he.community.MySpringbootApplication;
 import com.he.community.utils.MailClient;
 import org.junit.Test;
 import org.junit.runner.RunWith;

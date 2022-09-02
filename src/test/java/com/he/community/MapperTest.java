@@ -1,7 +1,6 @@
-package com.he.myspringboot;
+package com.he.community;
 
 
-import com.he.community.MySpringbootApplication;
 import com.he.community.dao.DiscussPostMapper;
 import com.he.community.dao.LoginTicketMapper;
 import com.he.community.dao.MessageMapper;

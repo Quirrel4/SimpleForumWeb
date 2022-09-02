@@ -1,4 +1,4 @@
-package com.he.myspringboot;
+package com.he.community;
 
 import com.he.community.pojo.Student;
 

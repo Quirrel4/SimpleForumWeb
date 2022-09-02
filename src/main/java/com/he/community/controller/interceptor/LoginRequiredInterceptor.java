@@ -22,6 +22,7 @@ public class LoginRequiredInterceptor implements HandlerInterceptor {
         if (handler instanceof HandlerMethod){
             HandlerMethod handlerMethod = (HandlerMethod) handler;
             Method method = handlerMethod.getMethod();
+            //拿到方法
             LoginRequired annotation = method.getAnnotation(LoginRequired.class);
             //这里hostHolder里的user是LoginTicketInterceptor注入的，两个拦截器的先后顺序是由注册顺序决定的
             if (annotation!=null&&hostHolder.getUsers()==null){
@@ -29,7 +30,7 @@ public class LoginRequiredInterceptor implements HandlerInterceptor {
                 return false;
             }
         }
-
         return true;
     }
+
 }

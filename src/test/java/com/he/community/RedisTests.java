@@ -1,12 +1,9 @@
-package com.he.myspringboot;
+package com.he.community;
 
-import com.he.community.MySpringbootApplication;
-import com.he.community.entity.Page;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.json.GsonTester;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.core.BoundValueOperations;
 import org.springframework.data.redis.core.RedisOperations;

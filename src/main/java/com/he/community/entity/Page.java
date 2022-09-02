@@ -7,7 +7,7 @@ public class Page {
     //当前页
     int current=1;
 
-    //一页显示的页数
+    //一页显示的个数
     int limit=10;
 
     //分页链接

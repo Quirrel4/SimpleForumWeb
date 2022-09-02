@@ -3,7 +3,10 @@ package com.he.community.controller;
 
 import com.he.community.annotation.LoginRequired;
 import com.he.community.entity.User;
+import com.he.community.service.FollowService;
+import com.he.community.service.LikeService;
 import com.he.community.service.UserService;
+import com.he.community.utils.CommunityConstant;
 import com.he.community.utils.CommunityUtil;
 import com.he.community.utils.HostHolder;
 import org.apache.commons.lang3.StringUtils;
@@ -45,6 +48,12 @@ public class UserController {
 
     @Autowired
     private HostHolder hostHolder;
+
+    @Autowired
+    private LikeService likeService;
+
+    @Autowired
+    private FollowService followService;
 
     @LoginRequired
     @RequestMapping(path="/setting",method = RequestMethod.GET)
@@ -115,8 +124,36 @@ public class UserController {
         } catch (IOException e) {
             logger.error("读取头像失败"+e.getMessage());
         }
+    }
 
+    //个人主页
+    @RequestMapping(path = "/profile/{userId}",method = RequestMethod.GET)
+    public String getProfilePage(@PathVariable("userId")int userId,Model model){
+        User user=userService.findUserById(userId);
+        if (user==null){
+            throw new RuntimeException("该用户不存在");
+        }
 
+        //该用户的粉丝
+        long followerCount = followService.findFollowerCount(CommunityConstant.ENTITY_TYPE_USER, userId);
+        //该用户的关注
+        long followeeCount = followService.findFolloweeCount(userId, CommunityConstant.ENTITY_TYPE_USER);
+        //是否关注，还要检查下是否登录
+        boolean hasFollowed=false;
+        if (hostHolder.getUsers()!=null){
+            hasFollowed=followService.hasFollowed(hostHolder.getUsers().getId(),CommunityConstant.ENTITY_TYPE_USER,userId);
+        }
+
+        model.addAttribute("hasFollowed",hasFollowed);
+        model.addAttribute("followerCount",followerCount);
+        model.addAttribute("followeeCount",followeeCount);
+
+        //用户的基本信息
+        model.addAttribute("user",user);
+        //查询获赞数量
+        int likedCount = likeService.findUserLikedCount(userId);
+        model.addAttribute("likeCount",likedCount);
+        return "/site/profile";
     }
 
 

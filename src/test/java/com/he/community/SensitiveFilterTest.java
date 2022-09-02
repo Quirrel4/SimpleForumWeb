@@ -1,8 +1,7 @@
-package com.he.myspringboot;
+package com.he.community;
 
-import com.he.community.MySpringbootApplication;
-import com.he.community.controller.interceptor.AlphaInterceptor;
-import com.he.community.service.AlphaService;
+
+import com.he.community.utils.SensitiveFilter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,13 +12,15 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ContextConfiguration(classes= MySpringbootApplication.class)
-public class TransactionTest {
+public class SensitiveFilterTest {
 
     @Autowired
-    private AlphaService alphaService;
+    private SensitiveFilter sensitiveFilter;
+
     @Test
-    public void testSave1(){
-        Object o = alphaService.save1();
-        System.out.printf(o.toString());
+    public void Test01(){
+        String text="这里可以开票，可以吸毒，可以嫖娼，可以赌博，哈哈哈！";
+        text = sensitiveFilter.filter(text);
+        System.out.println(text);
     }
 }

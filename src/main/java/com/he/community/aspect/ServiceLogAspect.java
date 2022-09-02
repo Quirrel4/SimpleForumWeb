@@ -24,9 +24,15 @@ public class ServiceLogAspect {
 
     }
 
+    //对所有的service方法都记录日志
     @Before("pointcut()")
     public void before(JoinPoint joinPoint){
+        //默认service方法都是从controller中调用的，但是kafka的消费者调用了MessageService对象,这里取到的attributes就为null
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+
+        if (attributes==null)
+            return;
+
         HttpServletRequest request= attributes.getRequest();
         String ip=request.getRemoteHost();
         String now=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());

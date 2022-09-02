@@ -5,7 +5,9 @@ import com.he.community.entity.DiscussPost;
 import com.he.community.entity.Page;
 import com.he.community.entity.User;
 import com.he.community.service.DiscussPostService;
+import com.he.community.service.LikeService;
 import com.he.community.service.UserService;
+import com.he.community.utils.CommunityConstant;
 import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -29,6 +31,9 @@ public class HomeController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private LikeService likeService;
+
     @RequestMapping(path="/index",method = RequestMethod.GET)
     public String getIndexPage(Model model, Page page){
         //DisPathcerServlet会自动实例化Model和Page，并将Page注入Model
@@ -49,6 +54,9 @@ public class HomeController {
                 //查询并存入用户
                 User userById = userService.findUserById(discussPost.getUserId());
                 map.put("user",userById);
+
+                long likeCount=likeService.findEntityLikeCount(CommunityConstant.ENTITY_TYPE_POST,discussPost.getId());
+                map.put("likeCount",likeCount);
 
                 list.add(map);
             }
