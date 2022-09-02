@@ -1,0 +1,335 @@
+2022-07-01 19:09:55,317 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-01 19:09:59,537 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:09:59,538 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:01,668 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:01,668 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:03,880 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:03,880 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:06,142 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:06,142 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:08,596 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:08,596 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:11,481 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:11,481 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:14,548 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:14,548 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:17,682 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:17,682 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:20,866 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:20,866 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:23,997 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:23,997 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:26,998 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:26,998 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:30,228 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:30,228 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:33,099 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:33,099 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:36,103 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:36,103 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:39,037 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:39,037 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:42,214 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:42,214 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:45,352 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:45,352 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:48,444 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:48,444 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:51,554 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:51,554 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:54,428 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:54,428 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:10:57,319 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:10:57,319 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:00,278 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:00,278 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:03,159 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:03,159 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:06,145 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:06,145 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:08,946 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:08,946 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:09,424 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:09,424 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:11,093 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:11,093 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:12,379 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:12,379 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:13,240 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:13,241 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:15,379 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:15,379 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:15,506 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:15,506 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:17,915 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:17,915 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:18,616 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:18,616 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:20,976 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:20,977 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:21,565 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:21,565 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:24,176 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:24,176 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:24,676 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:24,676 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:27,094 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:27,094 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:27,643 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:27,643 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:30,334 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:30,334 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:30,557 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:30,557 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:33,394 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:33,394 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:33,612 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:33,612 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:36,566 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:36,566 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:36,707 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:36,707 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:39,568 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:39,568 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:39,802 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:39,802 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:42,715 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:42,715 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:42,715 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:42,715 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:45,835 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:45,835 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:45,836 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:45,836 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:48,975 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:48,975 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:49,022 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:49,022 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:51,881 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:51,881 WARN [kafka-producer-network-thread | producer-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:52,116 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:766] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-01 19:11:52,116 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1050] [Consumer clientId=consumer-community-consumer-group-1, groupId=community-consumer-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-07-01 19:11:53,119 WARN [http-nio-8080-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:434] Failure in @ExceptionHandler com.he.community.controller.advice.ExceptionAdvice#handleException(Exception, HttpServletRequest, HttpServletResponse)
+java.lang.NullPointerException: null
+	at com.he.community.controller.advice.ExceptionAdvice.handleException(ExceptionAdvice.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-07-01 19:11:53,119 WARN [http-nio-8080-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:434] Failure in @ExceptionHandler com.he.community.controller.advice.ExceptionAdvice#handleException(Exception, HttpServletRequest, HttpServletResponse)
+java.lang.NullPointerException: null
+	at com.he.community.controller.advice.ExceptionAdvice.handleException(ExceptionAdvice.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-07-01 19:11:53,119 WARN [http-nio-8080-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:434] Failure in @ExceptionHandler com.he.community.controller.advice.ExceptionAdvice#handleException(Exception, HttpServletRequest, HttpServletResponse)
+java.lang.NullPointerException: null
+	at com.he.community.controller.advice.ExceptionAdvice.handleException(ExceptionAdvice.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-07-01 19:11:53,119 WARN [http-nio-8080-exec-5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:434] Failure in @ExceptionHandler com.he.community.controller.advice.ExceptionAdvice#handleException(Exception, HttpServletRequest, HttpServletResponse)
+java.lang.NullPointerException: null
+	at com.he.community.controller.advice.ExceptionAdvice.handleException(ExceptionAdvice.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
