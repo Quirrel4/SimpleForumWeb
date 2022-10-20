@@ -4,7 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!--访问该页面时,在此处生成CSRF令牌.-->
+	<!--访问该页面时,在此处生成CSRF令牌-->
+	<!--<meta name="_csrf" th:content="${_csrf.token}">
+	<meta name="_csrf_header" th:content="${_csrf.headerName}">-->
+
 	<!--<meta name="_csrf" th:content="${_csrf.token}">-->
 	<!--<meta name="_csrf_header" th:content="${_csrf.headerName}">-->
 	<link rel="icon" th:href="@{/img/icon.png}"/>
@@ -49,7 +52,7 @@
 						</ul>
 						<!-- 搜索 -->
 						<form class="form-inline my-2 my-lg-0" method="get" th:action="@{/search}">
-							<input class="form-control mr-sm-2" type="search" aria-label="Search" name="keyword" />
+							<input class="form-control mr-sm-2" type="search" aria-label="Search" name="keyword" th:value="${keyword}" />
 							<button class="btn btn-outline-light my-2 my-sm-0" type="submit">搜索</button>
 						</form>
 					</div>
@@ -64,10 +67,10 @@
 					<!-- 筛选条件 -->
 					<ul class="nav nav-tabs mb-3">
 						<li class="nav-item">
-							<a >最新</a>
+							<a th:class="|nav-link ${orderMode==0?'active':''}|" th:href="@{/index(orderMode=0)}">最新</a>
 						</li>
 						<li class="nav-item">
-							<a >最热</a>
+							<a th:class="|nav-link ${orderMode==1?'active':''}|" th:href="@{/index(orderMode=1)}">最热</a>
 						</li>
 					</ul>
 					<button type="button" class="btn btn-primary btn-sm position-absolute rt-0" data-toggle="modal" data-target="#publishModal" >我要发布</button>

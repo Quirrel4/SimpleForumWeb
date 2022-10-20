@@ -9,7 +9,9 @@ import com.he.community.service.CommentService;
 import com.he.community.service.DiscussPostService;
 import com.he.community.utils.CommunityConstant;
 import com.he.community.utils.HostHolder;
+import com.he.community.utils.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,6 +31,8 @@ public class commentController {
     private EventProducer eventProducer;
     @Autowired
     private DiscussPostService discussPostService;
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     //添加评论，最后重定向到该帖子页面，所以需要该帖子的id来重定向
     @RequestMapping("/add/{discussPostId}")
@@ -60,6 +64,20 @@ public class commentController {
         //这里并发执行，提高了效率
         //把event丢到队列里，等待执行，接下来继续处理业务
         eventProducer.fireEvent(event);
+
+        if (comment.getEntityType()==CommunityConstant.ENTITY_TYPE_POST){
+            event = new Event()
+                    .setTopic(CommunityConstant.TOPIC_PUBLISH)
+                    .setUserId(comment.getUserId())
+                    .setEntityId(CommunityConstant.ENTITY_TYPE_POST)
+                    .setEntityId(discussPostId);
+            eventProducer.fireEvent(event);
+
+
+            //计算帖子的分数
+            String redisKey= RedisKeyUtil.getPostScoreKey();
+            redisTemplate.opsForSet().add(redisKey,discussPostId);
+        }
 
         return "redirect:/discuss/detail/"+discussPostId;
     }

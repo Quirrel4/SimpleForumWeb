@@ -9,6 +9,8 @@ import com.he.community.service.UserService;
 import com.he.community.utils.CommunityConstant;
 import com.he.community.utils.CommunityUtil;
 import com.he.community.utils.HostHolder;
+import com.qiniu.util.Auth;
+import com.qiniu.util.StringMap;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,6 +21,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 
@@ -55,13 +58,54 @@ public class UserController {
     @Autowired
     private FollowService followService;
 
+    @Value("${qiniu.key.access}")
+    private String accessKey;
+
+    @Value("${qiniu.key.secret}")
+    private String secretKey;
+
+    @Value("${qiniu.bucket.header.url}")
+    private String headerBucketUrl;
+
+    @Value("${qiniu.bucket.header.name}")
+    private String headerBucketName;
+
     @LoginRequired
     @RequestMapping(path="/setting",method = RequestMethod.GET)
-    public String getSettings(){
+    public String getSettings(Model model){
+        //上传文件的名称
+        String fileName=CommunityUtil.generateUUID();
+
+        //设置响应信息
+        StringMap policy=new StringMap();
+        policy.put("returnBody",CommunityUtil.getJSONString(0));
+
+        //生成上传凭证，让表单post给七牛云才能使上传生效
+        Auth auth=Auth.create(accessKey,secretKey);
+        String uploadToken=auth.uploadToken(headerBucketName,fileName,3600,policy);
+
+        model.addAttribute("uploadToken",uploadToken);
+        model.addAttribute("fileName",fileName);
+
         return "/site/setting";
     }
 
 
+    //更新数据库中头像的路径
+    @RequestMapping(path = "/header/url",method = RequestMethod.POST)
+    @ResponseBody
+    public String updateHeaderUrl(String fileName){
+        if (StringUtils.isBlank(fileName)){
+            return CommunityUtil.getJSONString(1,"文件名不能为空!");
+        }
+        String url=headerBucketUrl+"/"+fileName;
+        userService.updateHeader(hostHolder.getUsers().getId(),url);
+
+        return CommunityUtil.getJSONString(0);
+    }
+
+
+    //废弃
     //处理图片上传.表单要用字节流，post方法
     @LoginRequired
     @RequestMapping(path = "/upload",method = RequestMethod.POST)
@@ -100,6 +144,7 @@ public class UserController {
     }
 
 
+    // 废弃
     //还可以获取别人的头像
     //通过流向浏览器响应一个图片
     @RequestMapping(path = "/header/{fileName}",method = RequestMethod.GET)

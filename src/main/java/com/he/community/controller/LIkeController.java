@@ -9,7 +9,9 @@ import com.he.community.service.LikeService;
 import com.he.community.utils.CommunityConstant;
 import com.he.community.utils.CommunityUtil;
 import com.he.community.utils.HostHolder;
+import com.he.community.utils.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -27,6 +29,8 @@ public class LIkeController {
     private HostHolder hostHolder;
     @Autowired
     private EventProducer eventProducer;
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     //点赞功能，做异步刷新，不刷新整个页面
     @RequestMapping(path = "/like",method = RequestMethod.POST)
@@ -57,6 +61,11 @@ public class LIkeController {
                     .setData("postId",postId);
 
             eventProducer.fireEvent(event);
+        }
+        if (entityType==CommunityConstant.ENTITY_TYPE_POST){
+            //计算帖子的分数
+            String redisKey= RedisKeyUtil.getPostScoreKey();
+            redisTemplate.opsForSet().add(redisKey,postId);
         }
 
         return CommunityUtil.getJSONString(0,null,map);

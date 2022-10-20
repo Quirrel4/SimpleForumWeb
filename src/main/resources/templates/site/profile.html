@@ -25,10 +25,10 @@
 							<a th:class="nav-link" th:href="@{|/user/profile/${user.id}|}">个人信息</a>
 						</li>
 						<li class="nav-item">
-							<a th:class="nav-link " th:href="@{|/user/mypost/${user.id}|}" th:text="${loginUser.id!=user.id?'它的帖子':'我的帖子'}">我的帖子</a>
+							<a th:class="nav-link " th:href="@{|/user/mypost/${user.id}|}" th:text="${loginUser!=null&&loginUser.id==user.id?'我的帖子':'ta的帖子'}">我的帖子</a>
 						</li>
 						<li class="nav-item">
-							<a th:class="nav-link " th:href="@{|/user/mycomment/${user.id}|}" th:text="${loginUser.id!=user.id?'它的评论':'我的评论'}">我的评论</a>
+							<a th:class="nav-link " th:href="@{|/user/mycomment/${user.id}|}" th:text="${loginUser!=null&&loginUser.id==user.id?'我的评论':'ta的评论'}">我的评论</a>
 						</li>
 					</ul>
 				</div>

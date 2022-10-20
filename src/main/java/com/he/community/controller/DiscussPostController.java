@@ -1,10 +1,8 @@
 package com.he.community.controller;
 
 
-import com.he.community.entity.Comment;
-import com.he.community.entity.DiscussPost;
-import com.he.community.entity.Page;
-import com.he.community.entity.User;
+import com.he.community.entity.*;
+import com.he.community.event.EventProducer;
 import com.he.community.service.CommentService;
 import com.he.community.service.DiscussPostService;
 import com.he.community.service.LikeService;
@@ -12,8 +10,10 @@ import com.he.community.service.UserService;
 import com.he.community.utils.CommunityConstant;
 import com.he.community.utils.CommunityUtil;
 import com.he.community.utils.HostHolder;
+import com.he.community.utils.RedisKeyUtil;
 import com.sun.corba.se.spi.ior.ObjectKey;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -37,6 +37,10 @@ public class DiscussPostController {
     private CommentService commentService;
     @Autowired
     private LikeService likeService;
+    @Autowired
+    private EventProducer eventProducer;
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     @RequestMapping(path = "/add",method = RequestMethod.POST)
     @ResponseBody
@@ -52,8 +56,24 @@ public class DiscussPostController {
         post.setCreateTime(new Date());
         discussPostService.addDiscussPost(post);
 
+
+        //触发发帖事件
+        Event event = new Event()
+                .setTopic(CommunityConstant.TOPIC_PUBLISH)
+                .setUserId(user.getId())
+                .setEntityId(CommunityConstant.ENTITY_TYPE_POST)
+                .setEntityId(post.getId());
+        eventProducer.fireEvent(event);
+
+        //计算帖子的分数
+        String redisKey= RedisKeyUtil.getPostScoreKey();
+        redisTemplate.opsForSet().add(redisKey,post.getId());
+
+
         return CommunityUtil.getJSONString(0,"发布成功！");
     }
+
+
 
     //帖子详情页面
     @RequestMapping(path = "/detail/{discussPostId}",method = RequestMethod.GET)
@@ -142,6 +162,64 @@ public class DiscussPostController {
 
         model.addAttribute("comments",commentVOList);
         return "/site/discuss-detail";
+    }
+
+
+    //置顶
+    @RequestMapping(path = "/top",method = RequestMethod.POST)
+    @ResponseBody
+    public String setTop(int id){
+        discussPostService.updateType(id,1);
+
+        //触发发帖事件
+        Event event = new Event()
+                .setTopic(CommunityConstant.TOPIC_PUBLISH)
+                .setUserId(hostHolder.getUsers().getId())
+                .setEntityId(CommunityConstant.ENTITY_TYPE_POST)
+                .setEntityId(id);
+        eventProducer.fireEvent(event);
+
+        return  CommunityUtil.getJSONString(0);
+    }
+
+
+    //加精
+    @RequestMapping(path = "/wonderful",method = RequestMethod.POST)
+    @ResponseBody
+    public String setWonderful(int id){
+        discussPostService.updateStatus(id,1);
+
+        //触发发帖事件
+        Event event = new Event()
+                .setTopic(CommunityConstant.TOPIC_PUBLISH)
+                .setUserId(hostHolder.getUsers().getId())
+                .setEntityId(CommunityConstant.ENTITY_TYPE_POST)
+                .setEntityId(id);
+        eventProducer.fireEvent(event);
+
+        //计算帖子的分数
+        String redisKey= RedisKeyUtil.getPostScoreKey();
+        redisTemplate.opsForSet().add(redisKey,id);
+
+
+        return  CommunityUtil.getJSONString(0);
+    }
+
+    //删除
+    @RequestMapping(path = "/delete",method = RequestMethod.POST)
+    @ResponseBody
+    public String setDelete(int id){
+        discussPostService.updateStatus(id,2);
+
+        //触发删帖事件
+        Event event = new Event()
+                .setTopic(CommunityConstant.TOPIC_DELETE)
+                .setUserId(hostHolder.getUsers().getId())
+                .setEntityId(CommunityConstant.ENTITY_TYPE_POST)
+                .setEntityId(id);
+        eventProducer.fireEvent(event);
+
+        return  CommunityUtil.getJSONString(0);
     }
 
 

@@ -15,6 +15,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 
 import java.util.ArrayList;
@@ -35,16 +36,16 @@ public class HomeController {
     private LikeService likeService;
 
     @RequestMapping(path="/index",method = RequestMethod.GET)
-    public String getIndexPage(Model model, Page page){
+    public String getIndexPage(Model model, Page page,@RequestParam(name="orderMode",defaultValue = "0")int orderMode){
         //DisPathcerServlet会自动实例化Model和Page，并将Page注入Model
         //所以在Thymeleaf可以直接取到page
 
         //页码设置
-        page.setPath("/index");
+        page.setPath("/index?orderMode="+orderMode);
         page.setRows(discussPostService.finDiscussPostRows(0));
 
 
-        List<DiscussPost> discussPosts = discussPostService.findDiscussPosts(0, page.getOffset(), page.getLimit());
+        List<DiscussPost> discussPosts = discussPostService.findDiscussPosts(0, page.getOffset(), page.getLimit(),orderMode);
         List<Map<String,Object>> list=new ArrayList<>();
         if(list!=null){
             for (DiscussPost discussPost : discussPosts) {
@@ -60,8 +61,10 @@ public class HomeController {
 
                 list.add(map);
             }
-            model.addAttribute("discussPosts",list);
+
         }
+        model.addAttribute("discussPosts",list);
+        model.addAttribute("orderMode",orderMode);
         return "index";
     }
 
@@ -70,6 +73,9 @@ public class HomeController {
         return "/error/500";
     }
 
-
+    @RequestMapping(path = "/denied",method = RequestMethod.GET)
+    public String getDeniedPage(){
+        return "/error/404";
+    }
 
 }
